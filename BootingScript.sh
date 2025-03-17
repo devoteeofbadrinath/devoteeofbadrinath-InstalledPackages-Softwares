@@ -15,3 +15,15 @@ mkdir github
 cd ~/Desktop/github
 git clone https://github.com/devoteeofbadrinath/devoteeofbadrinathOS.git        
 git clone https://github.com/devoteeofbadrinath/devoteeofbadrinath-InstalledPackages-Softwares.git
+
+#Installing the softwares
+curl -O https://packages.confluent.io/archive/7.9/confluent-7.9.0.zip
+
+#Install the Java
+/usr/libexec/java_home
+/usr/libexec/java_home -v 1.8
+
+git clone https://github.com/devoteeofbadrinath/devoteeofbadrinath_SparkStreaming.git
+
+which python3
+pip3 list -v
