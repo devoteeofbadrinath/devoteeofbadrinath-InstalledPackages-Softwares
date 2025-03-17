@@ -27,3 +27,8 @@ git clone https://github.com/devoteeofbadrinath/devoteeofbadrinath_SparkStreamin
 
 which python3
 pip3 list -v
+
+export HBASE_HOME=/Users/shivammittal/Downloads/hbase-2.5.10
+export PATH=$HBASE_HOME/bin:$PATH
+sh start-hbase.sh 
+python3 ~/Downloads/phoenix-hbase-2.5-5.2.1-bin/bin/sqlline.py localhost
